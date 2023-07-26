@@ -21,7 +21,7 @@
     background: rgba(59, 32, 11, 0.05);
 }
 .imgFundo{
-    background-image: url(/assets/banner-hero.png);
+    background-image: url(./assets/banner-hero.png);
     background-size: cover;
     background-position: center;
     height: 545px;
