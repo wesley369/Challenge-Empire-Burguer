@@ -166,6 +166,13 @@ right: 0;
     margin-top: 26.27px;
     
 }
+
+.linha-vertical{
+    border: none;
+    height: 83.531px;
+    border-left: 1px solid rgba(73, 46, 21, 0.15);
+    margin: auto 0;
+}
 .detalhe-imagem {
     display: flex;
     justify-content: center;
@@ -495,6 +502,38 @@ line-height: 22.4px; /* 140% */
     column-gap: 31px;
     
 }
+.logo-footer{
+    display: flex;
+    align-items: baseline;
+    color: var(--yellow, #F59A1B);
+font-family: Lato;
+font-size: 29.403px;
+font-style: normal;
+font-weight: 900;
+line-height: 32.343px; /* 110% */
+text-transform: uppercase;
+}
+
+.logo-footer h2{
+    color: var(--yellow, #F59A1B);
+    font-family: Lato;
+    font-size: 29.403px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32.343px; /* 110% */
+    text-transform: uppercase;
+}
+
+.logo-footer >h2 > span{
+    color: var(--yellow, #F59A1B);
+    font-family: Lato;
+    font-size: 29.403px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.343px;
+    text-transform: uppercase;
+
+}
 
 .linha-footer{
     padding-left: 80px;
@@ -527,4 +566,148 @@ font-weight: 400;
     grid-template-columns: 2fr 1fr;
     height: 430px;
     column-gap: 30px;
+}
+
+@media (min-width: 428px){
+    .menu-burguer{
+        display: none;
+    }
+}
+
+@media (max-width: 428px){
+    .menu, .icones-menu{
+        display: none;
+    }
+    .header{
+        padding-left: 24px;
+        padding-right: 16.94px;
+    }
+
+    .imgFundo{
+        background-image: url(../assets/Banner\ mobile\ 1.png);
+        height: 855.465px;
+    }
+    .slogan{
+        padding-left: 24px;
+        padding-top: 37.13px;
+    }
+    .slogan h4 {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25.2px; /* 140% */
+    }
+    .slogan h1{
+        font-size: 53.348px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 58.682px; 
+
+    }
+    .slogan h4 span {
+        font-size: 16px;
+        font-style: normal;
+    font-weight: 900;
+    line-height: 22.4px;
+    }
+    
+    .slogan button {
+    margin-top: 16.23px;
+    }
+    
+    .card-info{
+    top: 748.704px;
+    flex-direction: column;
+ width: 355.574px;
+height: 322.975px;
+    }
+    .linha-vertical{
+       display: none;
+    }
+
+    .card-item{
+        padding-left: 36.21px;
+        
+    }
+
+    .card-item h3{
+        opacity: 0.800000011920929;
+    }
+
+    .ofertas-especiais {
+        display: grid;
+        margin-top: 279.72px;
+        padding-left: 24px;
+        margin-right: 16.94px;
+        
+    }
+    .teste{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100%;
+        row-gap: 8px;
+    }
+    
+    .img-ofertas{
+        row-gap: 8px;
+        
+    }
+    .imgFundo2{
+        width: 379.461px;
+        height: 211.907px;
+    }
+    .imgFundo3, .imgFundo4{
+        width: 380px;
+        height: 204.876px;
+    }
+    .horario-funcionamento{
+        display: flex;
+        flex-direction: column;
+        margin-top: 37.94px;
+        margin-bottom: 186.52px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .horario-funcionamento-info{
+        width: 379.091px;
+        height: 110.704px;
+        
+    }
+    .horario-funcionamento-info .detalhe-imagem{
+        width: 73px;
+    height: 73px;
+    margin-left: 13.09px;
+    background-color: #1D060533;
+    }
+
+    .detalhe-imagem img{
+        width: 39px;
+        height: 45px;
+
+    }
+
+    .horario-funcionamento-info > div > h2{
+        font-size: 18px;
+        line-height: 25.2px; /* 140% */
+    }
+    
+    /* .horario-funcionamento-info > div  > p{
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.85);
+        line-height: 19.6px; 
+    } */
+    .footer, .footer ul{
+        flex-direction: column;
+        padding-left: 24px;
+        gap: 13.81px;
+        align-items: center;
+    }
+    .linha-footer{
+        width: 380px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    
 }
